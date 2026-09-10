@@ -386,10 +386,14 @@ const reference = [
     order,
   }))),
   ...pairedPages(([
-    ['docs/capability-seams.md', 'reference/capability-seams.md', '能力服务', 'Capability services', 2],
-    ['docs/agent-lifecycle.md', 'reference/agent-lifecycle.md', 'Agent 生命周期', 'Agent lifecycle', 3],
-    ['docs/tool-execution-pipeline.md', 'reference/tool-execution-pipeline.md', 'Tool 执行', 'Tool execution', 4],
-    ['docs/api-gateway.md', 'reference/api-gateway.md', 'API Gateway', 'API Gateway', 5],
+    ['docs/web-session-flow.md', 'reference/web-session-flow.md', 'Web 会话全链路', 'Web session flow', 2],
+    ['docs/web-input-state-machine.md', 'reference/web-input-state-machine.md', 'Web 输入状态机', 'Web input state machine', 3],
+    ['docs/web-request-execution-model.md', 'reference/web-request-execution-model.md', 'Web 请求链路与执行模型', 'Web request flow and execution model', 4],
+    ['docs/web-trajectory-view.md', 'reference/web-trajectory-view.md', 'Web 轨迹视图', 'Web trajectory view', 5],
+    ['docs/capability-seams.md', 'reference/capability-seams.md', '能力服务', 'Capability services', 6],
+    ['docs/agent-lifecycle.md', 'reference/agent-lifecycle.md', 'Agent 生命周期', 'Agent lifecycle', 7],
+    ['docs/tool-execution-pipeline.md', 'reference/tool-execution-pipeline.md', 'Tool 执行', 'Tool execution', 8],
+    ['docs/api-gateway.md', 'reference/api-gateway.md', 'API Gateway', 'API Gateway', 9],
   ] as const).map(([source, route, rootLabel, enLabel, order]): PairedPage => ({
     source,
     route,
